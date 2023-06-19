@@ -1,0 +1,41 @@
+.menu {
+  /* agrega el código correcto para colocar el menú correctamente.*/
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* agrega el código correcto para colocar los elementos grid  
+  uno junto al otro de igual forma.   */
+
+    display :flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(17, 255, 108);
+    
+    
+}
+
+.grid img {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  
+}
+
+.languages{
+  border: 5px groove rgb(87, 62, 146) ;
+  width: 300px;
+  border-radius: 80px;
+  background-color: rgb(237, 255, 192);
+  font-family: fantasy;
+}
+
+/*clases: agrupar etiquetas de HTML.*/
